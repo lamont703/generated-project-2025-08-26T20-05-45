@@ -1,0 +1,90 @@
+{
+    "categories": [
+        {
+            "id": "electronics",
+            "name": "Electronics"
+        },
+        {
+            "id": "apparel",
+            "name": "Apparel"
+        },
+        {
+            "id": "homegoods",
+            "name": "Home Goods"
+        }
+    ],
+    "products": [
+        {
+            "id": "p1",
+            "name": "Wireless Headphones",
+            "price": 149.99,
+            "description": "High-fidelity wireless headphones with noise-cancellation and a 20-hour battery life. Perfect for music lovers and frequent travelers.",
+            "image": "https://via.placeholder.com/400x400.png/007bff/ffffff?text=Headphones",
+            "category": "electronics",
+            "rating": 4.5
+        },
+        {
+            "id": "p2",
+            "name": "Smartwatch Series 7",
+            "price": 399.00,
+            "description": "The latest smartwatch with a vibrant display, health tracking features, and seamless smartphone integration.",
+            "image": "https://via.placeholder.com/400x400.png/28a745/ffffff?text=Smartwatch",
+            "category": "electronics",
+            "rating": 4.8
+        },
+        {
+            "id": "p3",
+            "name": "Classic Cotton T-Shirt",
+            "price": 24.50,
+            "description": "A comfortable and stylish t-shirt made from 100% premium organic cotton. Available in multiple colors.",
+            "image": "https://via.placeholder.com/400x400.png/6c757d/ffffff?text=T-Shirt",
+            "category": "apparel",
+            "rating": 4.2
+        },
+        {
+            "id": "p4",
+            "name": "Modern Running Shoes",
+            "price": 120.00,
+            "description": "Lightweight and breathable running shoes designed for maximum comfort and performance on any terrain.",
+            "image": "https://via.placeholder.com/400x400.png/dc3545/ffffff?text=Shoes",
+            "category": "apparel",
+            "rating": 4.6
+        },
+        {
+            "id": "p5",
+            "name": "Espresso Machine",
+            "price": 299.99,
+            "description": "A professional-grade espresso machine for your home. Brew delicious coffee with the push of a button.",
+            "image": "https://via.placeholder.com/400x400.png/ffc107/ffffff?text=Espresso",
+            "category": "homegoods",
+            "rating": 4.9
+        },
+        {
+            "id": "p6",
+            "name": "Cozy Throw Blanket",
+            "price": 49.95,
+            "description": "A super-soft and warm throw blanket, perfect for cozying up on the couch. Made from recycled materials.",
+            "image": "https://via.placeholder.com/400x400.png/17a2b8/ffffff?text=Blanket",
+            "category": "homegoods",
+            "rating": 4.7
+        },
+        {
+            "id": "p7",
+            "name": "Portable Bluetooth Speaker",
+            "price": 79.99,
+            "description": "A compact and waterproof Bluetooth speaker with rich sound and 12 hours of playtime.",
+            "image": "https://via.placeholder.com/400x400.png/fd7e14/ffffff?text=Speaker",
+            "category": "electronics",
+            "rating": 4.4
+        },
+        {
+            "id": "p8",
+            "name": "Denim Jacket",
+            "price": 89.00,
+            "description": "A timeless denim jacket that provides a perfect blend of style and durability.",
+            "image": "https://via.placeholder.com/400x400.png/343a40/ffffff?text=Jacket",
+            "category": "apparel",
+            "rating": 4.3
+        }
+    ]
+}
