@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Mobile App Project Hub</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; margin: 0; padding: 2rem; background-color: #f8f9fa; color: #343a40; }
+        .container { max-width: 900px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 3rem; }
+        header h1 { font-size: 2.5rem; color: #212529; }
+        header p { font-size: 1.1rem; color: #6c757d; }
+        .nav-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
+        .card { background-color: #ffffff; border: 1px solid #dee2e6; border-radius: 8px; padding: 1.5rem; text-align: center; transition: transform 0.2s, box-shadow 0.2s; text-decoration: none; color: inherit; display: block; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+        .card h2 { margin-top: 0; color: #007bff; }
+        .card p { color: #495057; }
+        footer { text-align: center; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #dee2e6; font-size: 0.9rem; color: #6c757d; }
+        footer a { color: #007bff; text-decoration: none; margin: 0 10px; }
+        footer a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>E-commerce Mobile App Project Hub</h1>
+            <p>Project deliverables for the modern e-commerce mobile application.</p>
+        </header>
+
+        <main>
+            <div class="nav-grid">
+                <a href="docs/overview.md" class="card">
+                    <h2>Documentation</h2>
+                    <p>Project overview, requirements, technical specifications, and user flows.</p>
+                </a>
+                <a href="wireframes/index.html" class="card">
+                    <h2>Wireframes</h2>
+                    <p>Low-fidelity layouts outlining the app's structure and user interface.</p>
+                </a>
+                <a href="prototype/index.html" class="card">
+                    <h2>Interactive Prototype</h2>
+                    <p>A clickable, high-fidelity prototype simulating the final user experience.</p>
+                </a>
+            </div>
+        </main>
+
+        <footer>
+            <a href="docs/overview.md">View Documentation</a>
+            <a href="wireframes/index.html">View Wireframe</a>
+        </footer>
+    </div>
+</body>
+</html>
